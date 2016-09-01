@@ -21,7 +21,6 @@ public class CashMain {
 		CashContext csuper = new CashContext(cash.getType());
 		totalPrices = csuper.GetResult(Double.parseDouble(cash.getPrice()) * Double.parseDouble(cash.getNumber()));
 		
-
 		total += totalPrices;
 		
 		System.out.println("单价：" + cash.getPrice() + " 数量：" + cash.getNumber() + " 合计： " + totalPrices);
