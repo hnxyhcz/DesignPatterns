@@ -1,7 +1,7 @@
 package com.hnxyhcz.designPatterns.ProxyPatterns;
 
 /**
- * 姑凉
+ * 姑娘
  * @author hnxyhcz
  *
  */
