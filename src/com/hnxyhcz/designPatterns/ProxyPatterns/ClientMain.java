@@ -10,7 +10,6 @@ import com.hnxyhcz.designPatterns.ProxyPatterns.proxy.Proxy;
 public class ClientMain {
 
 	public static void main(String[] args) {
-		
 		SchoolGirl mm = new SchoolGirl();
 		mm.setName("李娇娇");
 		
