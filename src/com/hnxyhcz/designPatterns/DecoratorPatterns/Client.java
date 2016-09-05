@@ -2,8 +2,11 @@ package com.hnxyhcz.designPatterns.DecoratorPatterns;
 
 import com.hnxyhcz.designPatterns.DecoratorPatterns.AbstractComponent.TheGreatestSage;
 import com.hnxyhcz.designPatterns.DecoratorPatterns.AbstractComponent.ConcreteComponent.Monkey;
+import com.hnxyhcz.designPatterns.DecoratorPatterns.AbstractComponent.ConcreteComponent.Person;
 import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.Bird;
 import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.Fish;
+import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.Shoes;
+import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.TShirts;
 import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.Tree;
 
 public class Client {
@@ -22,6 +25,12 @@ public class Client {
 		TheGreatestSage fish = new Fish(new Bird(new Monkey()));
 		fish.move();
 		
+		// 服装装扮的例子
+		Person person = new Person("小菜");
+		Person tShirts = new TShirts(person);
+		Person shoes = new Shoes(tShirts);
+		
+		shoes.Show();
 	}
 	
 }
