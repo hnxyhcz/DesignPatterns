@@ -1,7 +1,10 @@
-package com.hnxyhcz.designPatterns.ProxyPatterns;
+package com.hnxyhcz.designPatterns.ProxyPatterns.realSubject;
+
+import com.hnxyhcz.designPatterns.ProxyPatterns.SchoolGirl;
+import com.hnxyhcz.designPatterns.ProxyPatterns.subject.GiveGift;
 
 /**
- * 追求者类
+ * 目标对象角色：追求者类
  * @author hnxyhcz
  *
  */
