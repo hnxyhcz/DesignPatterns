@@ -9,6 +9,11 @@ import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.Shoes;
 import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.TShirts;
 import com.hnxyhcz.designPatterns.DecoratorPatterns.Entity.Tree;
 
+/**
+ * 装饰模式示例代码
+ * @author hnxyhcz
+ *
+ */
 public class Client {
 	
 	public static void main(String[] args) {
