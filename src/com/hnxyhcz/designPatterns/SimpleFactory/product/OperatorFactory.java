@@ -7,7 +7,7 @@ import com.hnxyhcz.designPatterns.SimpleFactory.creator.concrete.OperatorMul;
 import com.hnxyhcz.designPatterns.SimpleFactory.creator.concrete.OperatorSub;
 
 /**
- * 工厂角色类
+ * 工厂角色类（简单工厂模式）
  * @author hnxyhcz
  *
  */
